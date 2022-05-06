@@ -1,6 +1,6 @@
 <template>
   <div>
-    <svg viewBox="0 0 58 31" :class="`w-auto h-${height}`">
+    <svg viewBox="0 0 58 31" class="w-auto h-5">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -10,13 +10,3 @@
     </svg>
   </div>
 </template>
-
-<script setup>
-defineProps({
-  height: {
-    required: false,
-    default: "5",
-    type: String,
-  },
-});
-</script>

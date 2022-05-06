@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import GithubPage from "@/components/GithubPage.vue";
+import GithubPage from "@/components/pages/GithubPage.vue";
 </script>

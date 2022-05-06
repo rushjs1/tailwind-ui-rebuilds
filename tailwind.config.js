@@ -12,6 +12,10 @@ module.exports = {
         '200': '50rem'
       },
     },
+/*     screens: {
+      'md2' : '850px',
+      '3xl': '1545px'
+    } */
   },
   plugins: [],
 }

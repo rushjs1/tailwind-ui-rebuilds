@@ -10,12 +10,12 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/github-ui',
+    path: '/Github-ui',
     name:'github-ui',
     component: GithubView
   },
   {
-    path: '/spotify-ui',
+    path: '/Spotify-ui',
     name: 'spotify-ui',
     component: SpotifyView
   }

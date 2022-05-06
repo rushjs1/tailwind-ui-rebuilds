@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import SpotifyPage from "@/components/SpotifyPage.vue";
+import SpotifyPage from "@/components/pages/SpotifyPage.vue";
 </script>
