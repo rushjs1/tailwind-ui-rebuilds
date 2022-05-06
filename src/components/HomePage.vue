@@ -12,18 +12,13 @@
           <span> Tailwind Rebuilds </span>
         </div>
         <div class="mt-12 text-slate-200 text-xl px-8">
-          Rebuilding popular interfaces using
+          Rebuilding popular user interfaces using
           <a href="https://tailwindcss.com/" class="underline hover:text-sky-400">tailwindcss</a> to practice and
           sharpen my knowledge of the framework.
         </div>
         <div class="sites-parent mt-20 px-20 grid grid-cols-2 sm:grid-cols-3 gap-x-20 md:gap-0">
-          <RouterLink to="/github-ui">
-            <SiteItem :title="'Github'" :icon="[GithubIcon]" />
-          </RouterLink>
-
-          <RouterLink to="/spotify-ui">
-            <SiteItem :title="'Spotify'" :icon="[SpotifyIcon]" />
-          </RouterLink>
+          <SiteItem :title="'Github'" :icon="[GithubIcon]" />
+          <SiteItem :title="'Spotify'" :icon="[SpotifyIcon]" />
         </div>
       </div>
     </div>
