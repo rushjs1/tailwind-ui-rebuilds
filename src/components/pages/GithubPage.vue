@@ -133,7 +133,7 @@
           ></path>
         </svg>
         <div class="flex items-center text-xl ml-2">
-          <a href="#" class="text-blue-600 hover:underline"> tailwindcss</a>
+          <a href="#" class="text-blue-600 hover:underline"> tailwindlabs</a>
           <span class="ml-1">/</span>
           <a href="#" class="text-blue-600 hover:underline ml-1 font-semibold">
             tailwindcss</a
@@ -175,7 +175,7 @@
           <a
             href="#"
             class="border border-gray-400 rounded rounded-l-none border-l-0 px-3 py-1 font-semibold hover:text-gray-300"
-            >430</a
+            >570</a
           >
         </div>
         <div class="flex">
@@ -193,12 +193,12 @@
                 d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"
               ></path>
             </svg>
-            <div>Unstar</div>
+            <div>Starred</div>
           </button>
           <a
             href="#"
             class="border border-gray-400 rounded rounded-l-none border-l-0 px-3 py-1 font-semibold hover:text-gray-300"
-            >25.3k</a
+            >56.4k</a
           >
         </div>
         <div class="flex">
@@ -221,7 +221,7 @@
           <a
             href="#"
             class="border border-gray-400 rounded rounded-l-none border-l-0 px-3 py-1 font-semibold hover:text-gray-300"
-            >1.2k</a
+            >2.8k</a
           >
         </div>
       </div>
