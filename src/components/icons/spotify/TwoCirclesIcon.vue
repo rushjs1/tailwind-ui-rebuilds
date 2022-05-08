@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <svg height="10" width="10">
+      <circle
+        cx="5"
+        cy="5"
+        r="4.5"
+        stroke="#ffffff"
+        stroke-width="1"
+        fill="none"
+      />
+      <circle
+        cx="5"
+        cy="5"
+        r="1.5"
+        stroke="#ffffff"
+        stroke-width="1"
+        fill="none"
+      />
+    </svg>
+  </div>
+</template>

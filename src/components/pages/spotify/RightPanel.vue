@@ -20,47 +20,24 @@
         />
       </div>
       <div
-        class="col-span-7 flex flex-col hover:text-white hover:cursor-pointer"
+        class="col-span-7 flex flex-col space-y-1 hover:text-white hover:cursor-pointer"
       >
         <span class="font-semibold"> {{ getFullName(person) }} </span>
-        <span class="text-sm flex space-x-2 items-center">
-          <span>
-            <svg height="10" width="10">
-              <circle
-                cx="5"
-                cy="5"
-                r="2.5"
-                stroke="#ffffff"
-                stroke-width=".5"
-                fill="none"
-              />
-              <circle
-                cx="5"
-                cy="5"
-                r=".7"
-                stroke="#ffffff"
-                stroke-width=".5"
-                fill="none"
-              />
-            </svg>
-          </span>
+        <span class="text-xs flex space-x-2 items-center">
           <span class="flex items-center space-x-1">
             <span> Califor... </span>
             <span>
-              <svg height="10" width="10">
-                <circle
-                  cx="5"
-                  cy="5"
-                  r=".9"
-                  stroke="#ffffff"
-                  stroke-width=".5"
-                  fill="#ffffff"
-                />
-              </svg>
+              <BulletIcon />
             </span>
             <span>The...</span>
           </span>
         </span>
+        <div class="flex items-center space-x-2">
+          <span>
+            <TwoCirclesIcon />
+          </span>
+          <span class="text-xs"> California Su... </span>
+        </div>
       </div>
       <div class="col-span-2 text-xs">2 hr</div>
     </div>
@@ -69,6 +46,8 @@
 
 <script setup>
 import AddFriendIcon from "@/components/icons/spotify/AddFriendIcon.vue";
+import TwoCirclesIcon from "@/components/icons/spotify/TwoCirclesIcon.vue";
+import BulletIcon from "@/components/icons/spotify/BulletIcon.vue";
 import { reactive, computed, onMounted, onBeforeMount } from "vue";
 
 let users = reactive({
