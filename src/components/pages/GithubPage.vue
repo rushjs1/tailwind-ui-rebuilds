@@ -416,7 +416,7 @@
                 ></path>
               </svg>
               <span class="group-hover:text-blue-600">
-                <span class="font-semibold">25 </span>
+                <span class="font-semibold">47 </span>
                 <span class="text-gray-600">branches</span>
               </span>
             </a>
@@ -436,7 +436,7 @@
                 ></path>
               </svg>
               <span class="group-hover:text-blue-600">
-                <span class="font-semibold">79 </span>
+                <span class="font-semibold">210 </span>
                 <span class="text-gray-600">tags</span>
               </span>
             </a>
@@ -571,12 +571,15 @@
           <div class="flex justify-between px-4 py-2">
             <div class="w-4/12 flex items-center space-x-3">
               <FolderIcon />
-              <span class="hover:underline hover:text-blue-500">.github</span>
-            </div>
-            <div class="w-6/12">
-              <span class="hover:underline hover:text-blue-500"
-                >Update CONTRIBUTING.md</span
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >.github</span
               >
+            </div>
+            <div
+              class="w-6/12 hover:underline hover:text-blue-500 truncate hover:cursor-pointer"
+            >
+              <span>Update CONTRIBUTING.md</span>
               (<span class="text-blue-500 hover:underline">#7723</span>)
             </div>
             <div class="w-2/12 text-right">2 Months Ago</div>
@@ -585,9 +588,14 @@
           <div class="flex justify-between px-4 py-2">
             <div class="w-4/12 flex items-center space-x-3">
               <FolderIcon />
-              <span>integrations</span>
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >integrations</span
+              >
             </div>
-            <div class="w-6/12 truncate">
+            <div
+              class="w-6/12 truncate hover:cursor-pointer hover:underline hover:text-blue-500"
+            >
               <span>
                 Support postcss config options in config file in the CLI (
               </span>
@@ -596,14 +604,79 @@
             <div class="w-2/12 text-right">13 days ago</div>
           </div>
           <div class="flex justify-between px-4 py-2">
-            <div class="w-4/12">one</div>
-            <div class="w-6/12">two</div>
-            <div class="w-2/12 text-right">three</div>
+            <div class="w-4/12 flex items-center space-x-3">
+              <FolderIcon />
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >jest</span
+              >
+            </div>
+            <div
+              class="w-6/12 truncate hover:cursor-pointer hover:underline hover:text-blue-500"
+            >
+              JIT: Optimize universal selector usage by inlining only the
+              relevant selectors (<span class="text-blue-500 hover:underline"
+                >#4850</span
+              >)
+            </div>
+            <div class="w-2/12 text-right">11 months ago</div>
           </div>
+
+          <div class="flex items-center justify-between px-4 py-2">
+            <div class="w-4/12 flex items-center space-x-3">
+              <FolderIcon />
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >nesting</span
+              >
+            </div>
+            <div
+              class="w-6/12 truncate hover:cursor-pointer hover:underline hover:text-blue-500"
+            >
+              Ensure to transpile the PostCSS Nesting plugin
+              (tailwindcss/nesting) (
+              <span class="text-blue-500 hover:underline">#7080</span> )
+            </div>
+            <div class="w-2/12 text-right">4 months ago</div>
+          </div>
+
           <div class="flex justify-between px-4 py-2">
-            <div class="w-4/12">one</div>
-            <div class="w-6/12">two</div>
-            <div class="w-2/12 text-right">three</div>
+            <div class="w-4/12 flex items-center space-x-3">
+              <FolderIcon />
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >perf</span
+              >
+            </div>
+            <div
+              class="w-6/12 truncate hover:cursor-pointer hover:underline hover:text-blue-500"
+            >
+              Performance improvements + memory leak fix (<span
+                class="text-blue-500 hover:underline"
+                >#3032</span
+              >)
+            </div>
+            <div class="w-2/12 text-right">17 months ago</div>
+          </div>
+
+          <div class="flex justify-between px-4 py-2">
+            <div class="w-4/12 flex items-center space-x-3">
+              <FolderIcon />
+              <span
+                class="hover:underline hover:text-blue-500 hover:cursor-pointer"
+                >scripts</span
+              >
+            </div>
+            <div
+              class="w-6/12 truncate hover:cursor-pointer hover:underline hover:text-blue-500"
+            >
+              Add Typescript types for the
+              <span class="bg-gray-200 font-mono p-1 rounded-md text-xs"
+                >tailwind.config.js</span
+              >
+              file (<span class="text-blue-500 hover:underline">#7891</span>)
+            </div>
+            <div class="w-2/12 text-right">4 months ago</div>
           </div>
         </div>
         <!-- file explorer end -->
