@@ -39,4 +39,6 @@ import TailwindLogo from "@/components/icons/TailwindLogo.vue";
 import SiteItem from "@/components/Home/SiteItem.vue";
 import GithubIcon from "@/components/icons/GithubIcon.vue";
 import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
+
+// Next ideas so I dont forget - Teams, Discord, BitBucket
 </script>

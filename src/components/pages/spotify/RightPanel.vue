@@ -10,7 +10,7 @@
       v-if="users.people"
       v-for="(person, index) in users.people[0]"
       :key="index"
-      class="friends-section mt-8 grid grid-cols-12 w-full"
+      class="friends-section mt-8 grid grid-cols-12 w-full last:mb-4"
     >
       <div class="col-span-3" @click="getUser">
         <img
