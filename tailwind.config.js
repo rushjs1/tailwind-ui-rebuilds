@@ -11,6 +11,9 @@ module.exports = {
         '72': '18rem',
         '200': '50rem'
       },
+      colors: {
+        'github-gray': '#f5f8fa'
+      }
     },
 /*     screens: {
       'md2' : '850px',
