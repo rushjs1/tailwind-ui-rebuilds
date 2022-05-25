@@ -44,4 +44,5 @@ import GithubIcon from "@/components/icons/GithubIcon.vue";
 import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
 
 // Next ideas so I dont forget - Teams, Discord, BitBucket
+console.log('test')
 </script>
