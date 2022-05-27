@@ -2,7 +2,7 @@
   <div class="item-box flex flex-col items-center mb-8 mx-4">
     <RouterLink :to="`/${title}-ui`">
       <div
-        class="boxes bg-gray-400 h-22 w-22 rounded-full shadow-md flex items-center justify-center hover:bg-gray-500 rounded-lg cursor-pointer"
+        class="boxes bg-gray-400 h-22 w-22 rounded-full shadow-md flex items-center justify-center rounded-lg cursor-pointer"
       >
         <component :is="icon[0]" />
       </div>
@@ -14,7 +14,9 @@
 </template>
 
 <script setup>
-defineProps({
+import  { computed } from 'vue'
+
+const props = defineProps({
   title: {
     required: true,
     type: String,
@@ -23,5 +25,27 @@ defineProps({
     required: true,
     type: Array,
   },
+  icolor: {
+    required: false,
+    type: String
+  }
 });
+
+console.log(props.icolor);
+
+const i_color = computed(() => {
+return props.icolor
+})
 </script>
+
+<style>
+
+.boxes{
+  background-color: dodgerblue;
+}
+
+.boxes:hover{
+  background-color: v-bind(i_color);
+}
+
+</style>

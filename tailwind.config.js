@@ -13,12 +13,12 @@ module.exports = {
       },
       colors: {
         'github-gray': '#f5f8fa'
+      },
+      backgroundImage: {
+        'glow': "url('https://cli.github.com/assets/images/light-glow.svg')",
+        'glow2': "url('https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg'), linear-gradient(rgb(15 23 42), 90%, rgb(30 41 59) )"
       }
     },
-/*     screens: {
-      'md2' : '850px',
-      '3xl': '1545px'
-    } */
   },
   plugins: [],
 }
