@@ -6,7 +6,8 @@ import PageNotFound from '@/components/pages/404/PageNotFound.vue'
 
 const routes = [
   {
-    path: '/*',
+    path: '/:pathMatch(.*)*', 
+    name: 'page-not-found',
     component: PageNotFound
   },
   {
