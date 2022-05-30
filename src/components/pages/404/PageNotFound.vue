@@ -5,7 +5,7 @@
     <div
       class="flex flex-col space-y-4 border-2 border-sky-400 p-4 rounded-lg text-sky-300 text-center"
     >
-      <div>404 Page Not found</div>
+      <div>Page Not found</div>
       <span>Something went wrong.</span>
       <span
         @click="goBack"

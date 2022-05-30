@@ -11,12 +11,14 @@
         minima placeat eos?
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script setup>
 //components
 import Nav from "@/components/pages/github/Nav.vue";
+import Footer from "@/components/pages/github/footer/Footer.vue";
 import RepoContainer from "@/components/pages/github/RepoContainer.vue";
 import FileExplorerContainer from "@/components/pages/github/FileExplorerContainer.vue";
 //icons
