@@ -20,6 +20,8 @@ module.exports = {
         glow: "url('https://cli.github.com/assets/images/light-glow.svg')",
         glow2:
           "url('https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg'), linear-gradient(rgb(15 23 42), 90%, rgb(30 41 59) )",
+        glowLight:
+          "url('https://tailwindcss.com/_next/static/media/hero@75.4dea7abe609fc522c039fba7662ceea2.jpg')",
       },
     },
   },

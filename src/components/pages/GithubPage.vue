@@ -4,12 +4,7 @@
     <RepoContainer />
     <div class="container mx-auto my-8 px-4 flex">
       <FileExplorerContainer />
-      <div class="sidebar w-1/4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui harum
-        aperiam expedita ipsum sint incidunt, commodi odit voluptatum nam
-        numquam nihil velit voluptates doloribus veniam voluptate doloremque
-        minima placeat eos?
-      </div>
+      <SidebarContainer />
     </div>
     <Footer />
   </div>
@@ -19,6 +14,7 @@
 //components
 import Nav from "@/components/pages/github/Nav.vue";
 import Footer from "@/components/pages/github/footer/Footer.vue";
+import SidebarContainer from "@/components/pages/github/sidebar/SidebarContainer.vue";
 import RepoContainer from "@/components/pages/github/RepoContainer.vue";
 import FileExplorerContainer from "@/components/pages/github/FileExplorerContainer.vue";
 //icons

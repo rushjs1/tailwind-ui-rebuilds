@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import  { computed } from 'vue'
+import { computed } from "vue";
 
 const props = defineProps({
   title: {
@@ -27,25 +27,23 @@ const props = defineProps({
   },
   icolor: {
     required: false,
-    type: String
-  }
+    type: String,
+  },
 });
 
 console.log(props.icolor);
 
 const i_color = computed(() => {
-return props.icolor
-})
+  return props.icolor;
+});
 </script>
 
 <style>
-
-.boxes{
+.boxes {
   background-color: dodgerblue;
 }
 
-.boxes:hover{
+.boxes:hover {
   background-color: v-bind(i_color);
 }
-
 </style>

@@ -8,7 +8,7 @@
         README.md
       </h4>
     </div>
-    <div class="px-5 py-5 flex flex-col space-y-3">
+    <div class="px-5 py-5 flex flex-col space-y-4">
       <div>
         <img
           src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-light.svg"
@@ -59,6 +59,38 @@
           <span class="text-blue-500 hover:underline cursor-pointer"
             >tailwindcss.com</span
           >.
+        </span>
+      </div>
+      <div class="flex flex-col space-y-3">
+        <span class="text-xl font-semibold">
+          Community
+          <hr class="mt-1" />
+        </span>
+        <div class="flex flex-col space-y-4">
+          <span>
+            For help, disscussion about best practices, or any other convention
+            that would benefit from being searchable:
+          </span>
+          <span class="text-blue-500 hover:underline cursor-pointer">
+            Discuss Tailwind CSS on GitHub
+          </span>
+          <span> For casual chit-chat with others using the framework: </span>
+          <span class="text-blue-500 hover:underline cursor-pointer">
+            Join the Tailwind CSS Discord Server
+          </span>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-3">
+        <span class="text-xl font-semibold">
+          Contributing
+          <hr class="mt-1" />
+        </span>
+        <span>
+          If you're interested in contributing to Tailwind CSS, please read our
+          <span class="text-blue-500 cursor-pointer hover:underline">
+            contributing docs
+          </span>
+          <span class="font-semibold">before submitting a pull request.</span>
         </span>
       </div>
     </div>

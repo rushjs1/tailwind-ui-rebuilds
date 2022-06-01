@@ -9,7 +9,9 @@
         </RouterLink>
         <span class="font-bold text-lg font-mono">Tailwind Rebuilds</span>
       </nav>
-      <div class="bg-glow2 bg-center bg-cover bg-slate-900 h-screen text-center">
+      <div
+        class="bg-glow2 bg-center bg-cover bg-slate-900 h-screen text-center"
+      >
         <div
           class="title text-white font-extrabold flex flex-col justify-center items-center pt-28 text-4xl tracking-tight space-x-2 font-bold px-4"
         >
@@ -29,8 +31,16 @@
         <div
           class="sites-parent mt-20 px-20 grid grid-cols-2 sm:grid-cols-3 gap-x-20 md:gap-0"
         >
-          <SiteItem :title="'Github'" :icon="[GithubIcon]" :icolor="'#fff000'" />
-          <SiteItem :title="'Spotify'" :icon="[SpotifyIcon]" :icolor="'#1ED761'" />
+          <SiteItem
+            :title="'Github'"
+            :icon="[GithubIcon]"
+            :icolor="'#fff000'"
+          />
+          <SiteItem
+            :title="'Spotify'"
+            :icon="[SpotifyIcon]"
+            :icolor="'#1ED761'"
+          />
         </div>
       </div>
     </div>

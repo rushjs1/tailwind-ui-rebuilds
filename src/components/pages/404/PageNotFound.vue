@@ -6,7 +6,6 @@
       class="flex flex-col space-y-4 border-2 border-sky-400 p-4 rounded-lg text-sky-300 text-center"
     >
       <div>Page Not found</div>
-      <span>Something went wrong.</span>
       <span
         @click="goBack"
         class="bg-sky-700 border-2 border-sky-400 rounded-lg text-sky-300 hover:cursor-pointer hover:bg-sky-300 hover:text-sky-700"
