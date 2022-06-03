@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import SidebarBubble from "@/components/pages/github/sidebar/SidebarBubble.vue";
+import SidebarBubble from "@/components/pages/github/sidebar/tags/SidebarBubble.vue";
 import { ref } from "vue";
 
 const items = ref([
