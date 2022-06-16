@@ -14,8 +14,8 @@
           :src="person.picture.thumbnail"
           alt="avatar"
           class="rounded-full text-left border-2 border-white hover:border-gray-100 hover:cursor-pointer"
-          width="40"
-          height="40"
+          width="35"
+          height="35"
         />
       </div>
       <div>
