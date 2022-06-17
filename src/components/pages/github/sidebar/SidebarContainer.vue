@@ -12,6 +12,7 @@
     <hr class="border-gray-300" />
     <SidebarContributors />
     <hr class="border-gray-300" />
+    <SidebarLanguages />
   </div>
 </template>
 
@@ -22,5 +23,6 @@ import SidebarStats from "@/components/pages/github/sidebar/stats/SidebarStats.v
 import SidebarUsedBy from "@/components/pages/github/sidebar/SidebarUsedBy.vue";
 import SidebarContributors from "@/components/pages/github/sidebar/SidebarContributors.vue";
 import SidebarReleaseStats from "@/components/pages/github/sidebar/stats/SidebarReleaseStats.vue";
+import SidebarLanguages from "@/components/pages/github/sidebar/SidebarLanguages.vue";
 import SidebarPackages from "@/components/pages/github/sidebar/stats/SidebarPackages.vue";
 </script>

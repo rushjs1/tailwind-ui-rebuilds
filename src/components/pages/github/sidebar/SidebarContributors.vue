@@ -16,7 +16,9 @@
       />
     </div>
     <div>
-      <span class="text-blue-600 hover:underline cursor-pointer">+ 221 contributors</span>
+      <span class="text-blue-600 hover:underline cursor-pointer"
+        >+ 221 contributors</span
+      >
     </div>
   </div>
 </template>
