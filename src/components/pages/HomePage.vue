@@ -1,3 +1,14 @@
+<script setup>
+import TailwindLogo from "@/components/icons/TailwindLogo.vue";
+import SiteItem from "@/components/Home/SiteItem.vue";
+import GithubIcon from "@/components/icons/GithubIcon.vue";
+import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
+
+// Next ideas so I dont forget - Teams, Discord, BitBucket?
+
+console.log("test from neovim");
+</script>
+
 <template>
   <div class="home-page">
     <div>
@@ -46,12 +57,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import TailwindLogo from "@/components/icons/TailwindLogo.vue";
-import SiteItem from "@/components/Home/SiteItem.vue";
-import GithubIcon from "@/components/icons/GithubIcon.vue";
-import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
-
-// Next ideas so I dont forget - Teams, Discord, BitBucket
-</script>
