@@ -12,6 +12,9 @@ module.exports = {
         "github-gray": "#f5f8fa",
         "github-readme-btn-green": "#4dc71f",
         "github-readme-btn-blue": "#2c80c0",
+        "spotify-stone-light": "#1e1e1e",
+        "spotify-stone-dark": "#121212",
+        "spotify-green": "#1bd760",
       },
       fontSize: {
         xxs: ".65rem",

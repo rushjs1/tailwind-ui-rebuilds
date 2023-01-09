@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-blue-500 col-span-2 bg-black text-gray-300 px-6">
+  <div class="col-span-2 bg-black text-gray-300 px-6">
     <div class="mac-buttons flex items-center justify-start space-x-2 mt-3">
       <div class="bg-red-500 w-3 rounded-full h-3 hover:cursor-pointer">
         &nbsp;

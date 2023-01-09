@@ -1,5 +1,28 @@
+<script setup>
+import AddFriendIcon from "@/components/icons/spotify/AddFriendIcon.vue";
+import TwoCirclesIcon from "@/components/icons/spotify/TwoCirclesIcon.vue";
+import BulletIcon from "@/components/icons/spotify/BulletIcon.vue";
+import { reactive } from "vue";
+
+let users = reactive({
+  people: [],
+});
+
+fetch("https://randomuser.me/api/?results=8")
+  .then((res) => {
+    return res.json();
+  })
+  .then((data) => {
+    users.people.push(data.results);
+  });
+
+const getFullName = (person) => {
+  return `${person.name.first} ${person.name.last}`;
+};
+</script>
+
 <template>
-  <div class="border border-green-500 col-span-2 bg-black text-gray-300 px-6">
+  <div class="col-span-2 bg-spotify-stone-dark text-gray-300 px-6">
     <div class="label-section mt-2 flex items-center justify-between">
       <span class="font-bold text-md">Friend Activity</span>
       <span>
@@ -43,38 +66,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import AddFriendIcon from "@/components/icons/spotify/AddFriendIcon.vue";
-import TwoCirclesIcon from "@/components/icons/spotify/TwoCirclesIcon.vue";
-import BulletIcon from "@/components/icons/spotify/BulletIcon.vue";
-import { reactive, computed, onMounted, onBeforeMount } from "vue";
-
-let users = reactive({
-  people: [],
-});
-
-/* for (var i = 0; i < 4; i++) {
-  fetch("https://randomuser.me/api/")
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      users.people.push(data.results[0]);
-      console.log(users);
-    });
-} */
-
-fetch("https://randomuser.me/api/?results=8")
-  .then((res) => {
-    return res.json();
-  })
-  .then((data) => {
-    users.people.push(data.results);
-    console.log(users.people[0]);
-  });
-
-const getFullName = (person) => {
-  return `${person.name.first} ${person.name.last}`;
-};
-</script>
