@@ -1,8 +1,8 @@
 <template>
   <div class="flex justify-center">
-    <div class="grid grid-cols-12 w-full h-screen">
+    <div class="grid h-screen w-full grid-cols-12">
       <LeftPanel />
-      <div class="border border-gray-500 col-span-8">
+      <div class="col-span-8 border border-gray-500">
         <CenterPanel />
       </div>
       <RightPanel />

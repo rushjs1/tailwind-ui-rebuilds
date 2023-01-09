@@ -42,16 +42,8 @@ console.log("test from neovim");
         <div
           class="sites-parent mt-20 px-20 grid grid-cols-2 sm:grid-cols-3 gap-x-20 md:gap-0"
         >
-          <SiteItem
-            :title="'Github'"
-            :icon="[GithubIcon]"
-            :icolor="'#fff000'"
-          />
-          <SiteItem
-            :title="'Spotify'"
-            :icon="[SpotifyIcon]"
-            :icolor="'#1ED761'"
-          />
+          <SiteItem title="Github" :icon="[GithubIcon]" icolor="#fff000" />
+          <SiteItem title="Spotify" :icon="[SpotifyIcon]" icolor="#1ED761" />
         </div>
       </div>
     </div>
