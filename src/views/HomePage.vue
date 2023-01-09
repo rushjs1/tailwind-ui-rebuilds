@@ -6,41 +6,41 @@ import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
 
 // Next ideas so I dont forget - Teams, Discord, BitBucket?
 
-console.log("test from neovim");
+console.log("test from neovim pt.2");
 </script>
 
 <template>
   <div class="home-page">
     <div>
       <nav
-        class="nav p-6 flex justify-start items-center space-x-1 text-white font-semibold fixed w-full"
+        class="nav fixed flex w-full items-center justify-start space-x-1 p-6 font-semibold text-white"
       >
         <RouterLink to="/">
           <TailwindLogo />
         </RouterLink>
-        <span class="font-bold text-lg font-mono">Tailwind Rebuilds</span>
+        <span class="font-mono text-lg font-bold">Tailwind Rebuilds</span>
       </nav>
       <div
-        class="bg-glow2 bg-center bg-cover bg-slate-900 h-screen text-center"
+        class="h-screen bg-slate-900 bg-glow2 bg-cover bg-center text-center"
       >
         <div
-          class="title text-white font-extrabold flex flex-col justify-center items-center pt-28 text-4xl tracking-tight space-x-2 font-bold px-4"
+          class="title flex flex-col items-center justify-center space-x-2 px-4 pt-28 text-4xl font-extrabold font-bold tracking-tight text-white"
         >
           <span>
             Rebuilding popular user interfaces using
             <a
               href="https://tailwindcss.com/"
-              class="hover:underline text-sky-400"
+              class="text-sky-400 hover:underline"
               >tailwindcss</a
             >
           </span>
-          <span class="text-2xl mt-4 font-semibold"
+          <span class="mt-4 text-2xl font-semibold"
             >to practice and sharpen my knowledge of the framework.</span
           >
         </div>
 
         <div
-          class="sites-parent mt-20 px-20 grid grid-cols-2 sm:grid-cols-3 gap-x-20 md:gap-0"
+          class="sites-parent mt-20 grid grid-cols-2 gap-x-20 px-20 sm:grid-cols-3 md:gap-0"
         >
           <SiteItem title="Github" :icon="[GithubIcon]" icolor="#fff000" />
           <SiteItem title="Spotify" :icon="[SpotifyIcon]" icolor="#1ED761" />
