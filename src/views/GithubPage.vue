@@ -1,8 +1,8 @@
 <template>
-  <div class="text-gray-900 text-sm">
+  <div class="text-sm text-gray-900">
     <Nav />
     <RepoContainer />
-    <div class="container mx-auto my-8 px-4 flex">
+    <div class="container mx-auto my-8 flex px-4">
       <FileExplorerContainer />
       <SidebarContainer />
     </div>

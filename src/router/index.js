@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import GithubView from "@/views/GithubView.vue";
-import HomeView from "@/views/HomeView.vue";
-import SpotifyView from "@/views/SpotifyView.vue";
+import GithubPage from "@/views/GithubPage.vue";
+import HomePage from "@/views/HomePage.vue";
+import SpotifyPage from "@/views/SpotifyPage.vue";
 import PageNotFound from "@/views/404/PageNotFound.vue";
 
 const routes = [
@@ -13,17 +13,17 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: HomeView,
+    component: HomePage,
   },
   {
     path: "/Github-ui",
     name: "github-ui",
-    component: GithubView,
+    component: GithubPage,
   },
   {
     path: "/Spotify-ui",
     name: "spotify-ui",
-    component: SpotifyView,
+    component: SpotifyPage,
   },
 ];
 
