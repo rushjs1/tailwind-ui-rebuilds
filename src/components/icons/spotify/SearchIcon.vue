@@ -1,7 +1,7 @@
 <template>
   <div>
     <svg
-      class="w-8 h-8"
+      class="h-6 w-6"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

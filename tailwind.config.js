@@ -19,6 +19,9 @@ module.exports = {
       fontSize: {
         xxs: ".65rem",
       },
+      boxShadow: {
+        spotify: "0 8px 8px rgb(0 0 0 / 30%)",
+      },
       backgroundImage: {
         glow: "url('https://cli.github.com/assets/images/light-glow.svg')",
         glow2:
