@@ -2,6 +2,7 @@
 import AddFriendIcon from "@/components/icons/spotify/AddFriendIcon.vue";
 import TwoCirclesIcon from "@/components/icons/spotify/TwoCirclesIcon.vue";
 import BulletIcon from "@/components/icons/spotify/BulletIcon.vue";
+import XIcon from "@/components/icons/spotify/XIcon.vue";
 import { reactive } from "vue";
 
 let users = reactive({
@@ -22,18 +23,23 @@ const getFullName = (person) => {
 </script>
 
 <template>
-  <div class="col-span-2 bg-spotify-stone-dark text-gray-300 px-6">
-    <div class="label-section mt-2 flex items-center justify-between">
-      <span class="font-bold text-md">Friend Activity</span>
-      <span>
-        <AddFriendIcon />
-      </span>
+  <div class="col-span-2 bg-spotify-stone-dark px-6 text-gray-300">
+    <div class="label-section mt-6 flex items-center justify-between">
+      <span class="text-md font-bold">Friend Activity</span>
+      <div class="flex items-center space-x-2">
+        <span>
+          <AddFriendIcon class="h-5 w-5" />
+        </span>
+        <span>
+          <XIcon />
+        </span>
+      </div>
     </div>
     <div
       v-if="users.people"
       v-for="(person, index) in users.people[0]"
       :key="index"
-      class="friends-section mt-8 grid grid-cols-12 w-full last:mb-4"
+      class="friends-section mt-8 grid w-full grid-cols-12 last:mb-4"
     >
       <div class="col-span-3" @click="getUser">
         <img
@@ -43,10 +49,10 @@ const getFullName = (person) => {
         />
       </div>
       <div
-        class="col-span-7 flex flex-col space-y-1 hover:text-white hover:cursor-pointer"
+        class="col-span-7 flex flex-col space-y-1 hover:cursor-pointer hover:text-white"
       >
         <span class="font-semibold"> {{ getFullName(person) }} </span>
-        <span class="text-xs flex space-x-2 items-center">
+        <span class="flex items-center space-x-2 text-xs">
           <span class="flex items-center space-x-1">
             <span> Califor... </span>
             <span>
