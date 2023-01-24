@@ -52,7 +52,7 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
         class="flex items-center space-x-3 py-2 hover:cursor-pointer hover:text-white"
       >
         <div
-          class="bg-gradient-to-r from-indigo-700 via-indigo-400 to-gray-300 p-1"
+          class="bg-gradient-to-br from-indigo-700 via-indigo-400 to-gray-300 p-1"
         >
           <HeartIcon />
         </div>
@@ -60,7 +60,7 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
       </div>
     </div>
     <div class="left-panel-playlists mt-3 text-gray-400">
-      <hr />
+      <hr class="h-px border-0 bg-stone-700" />
       <div class="mt-4 space-y-2 text-xs text-stone-400">
         <div class="hover:cursor-pointer hover:text-white">BR</div>
         <div class="hover:cursor-pointer hover:text-white">Lofi</div>

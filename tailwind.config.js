@@ -15,6 +15,7 @@ module.exports = {
         "spotify-stone-light": "#1e1e1e",
         "spotify-stone-dark": "#121212",
         "spotify-green": "#1bd760",
+        "spotify-dim-blue": "rgb(72, 32, 176)",
       },
       fontSize: {
         xxs: ".65rem",
@@ -28,6 +29,13 @@ module.exports = {
           "url('https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg'), linear-gradient(rgb(15 23 42), 90%, rgb(30 41 59) )",
         glowLight:
           "url('https://tailwindcss.com/_next/static/media/hero@75.4dea7abe609fc522c039fba7662ceea2.jpg')",
+      },
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
+      backgroundPosition: {
+        "pos-0": "0% 0%",
+        "pos-100": "100% 100%",
       },
     },
   },
