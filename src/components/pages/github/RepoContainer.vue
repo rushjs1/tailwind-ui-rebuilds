@@ -1,6 +1,6 @@
 <template>
   <!-- repo stats start -->
-  <div class="bg-gray-100/50">
+  <div class="bg-gray-100/50 transition-spacing duration-300">
     <RepoStats />
     <!-- repo stats end -->
     <!-- repo nav start -->

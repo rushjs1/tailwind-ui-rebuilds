@@ -1,9 +1,11 @@
 <template>
-  <ul class="repo-nav border-b border-gray-400 flex items-center px-8 mt-4">
+  <ul
+    class="repo-nav mt-4 flex w-full items-center overflow-y-scroll border-b border-gray-400 px-8 hide-scrollbar"
+  >
     <li class="font-semibold">
       <a href="#" class="flex items-center border-b-2 border-red-500 px-4 pb-3">
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -22,7 +24,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -34,7 +36,7 @@
           ></path>
         </svg>
         <span class="ml-2">Issues</span>
-        <span class="bg-gray-200 rounded-lg text-center px-2 ml-2"> 7 </span>
+        <span class="ml-2 rounded-lg bg-gray-200 px-2 text-center"> 7 </span>
       </a>
     </li>
     <li class="font-semibold">
@@ -43,7 +45,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4 shrink-0"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -53,8 +55,12 @@
             d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"
           ></path>
         </svg>
-        <span class="ml-2"> Pull requests</span>
-        <span class="bg-gray-200 px-2 rounded-lg ml-2 text-center">18</span>
+        <div class="ml-2">
+          <span class="block lg:hidden"> Pulls </span>
+          <span class="hidden lg:block"> Pull requests </span>
+        </div>
+
+        <span class="ml-2 rounded-lg bg-gray-200 px-2 text-center">18</span>
       </a>
     </li>
     <li class="font-semibold">
@@ -63,7 +69,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -82,7 +88,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -101,7 +107,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
@@ -120,7 +126,7 @@
         class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-200"
       >
         <svg
-          class="w-4 h-4"
+          class="h-4 w-4"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"

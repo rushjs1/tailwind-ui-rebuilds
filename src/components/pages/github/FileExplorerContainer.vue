@@ -1,5 +1,5 @@
 <template>
-  <div class="file-explorer-container w-3/4 mr-8">
+  <div class="file-explorer-container">
     <BranchNavigation />
     <FileExplorerHeading />
     <FileExplorerTable />

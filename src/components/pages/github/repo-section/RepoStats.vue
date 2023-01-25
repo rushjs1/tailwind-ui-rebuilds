@@ -1,5 +1,5 @@
 <template>
-  <div class="repo-stats flex items-center justify-between px-8 py-4">
+  <div class="repo-stats flex flex-wrap items-center justify-between px-8 py-4">
     <div class="flex">
       <svg
         aria-hidden="true"
@@ -12,21 +12,21 @@
           d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
         ></path>
       </svg>
-      <div class="flex items-center text-xl ml-2">
+      <div class="ml-2 flex items-center text-xl">
         <a href="#" class="text-blue-600 hover:underline"> tailwindlabs</a>
         <span class="ml-1">/</span>
-        <a href="#" class="text-blue-600 hover:underline ml-1 font-semibold">
+        <a href="#" class="ml-1 font-semibold text-blue-600 hover:underline">
           tailwindcss</a
         >
       </div>
     </div>
-    <div class="space-x-2 flex text-xs">
+    <div class="hidden space-x-2 text-xs md:flex">
       <div class="flex">
         <button
-          class="border border-gray-300 shadow-sm rounded-md px-3 py-1 flex items-center space-x-1 hover:bg-gray-100"
+          class="flex items-center space-x-1 rounded-md border border-gray-300 px-3 py-1 shadow-sm hover:bg-gray-100"
         >
           <svg
-            class="fill-current text-gray-600 w-4"
+            class="w-4 fill-current text-gray-600"
             aria-hidden="true"
             viewBox="0 0 16 16"
             data-view-component="true"
@@ -38,13 +38,13 @@
           </svg>
           <div>Watch</div>
           <div>
-            <a href="#" class="bg-gray-200 rounded-2xl px-3 py-1 font-semibold"
+            <a href="#" class="rounded-2xl bg-gray-200 px-3 py-1 font-semibold"
               >570</a
             >
           </div>
 
           <svg
-            class="w-3 ml-0.5"
+            class="ml-0.5 w-3"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -61,7 +61,7 @@
       </div>
       <div class="flex hover:bg-gray-100">
         <button
-          class="border border-gray-300 shadow-sm rounded-md px-3 py-1 flex items-center space-x-1"
+          class="flex items-center space-x-1 rounded-md border border-gray-300 px-3 py-1 shadow-sm"
         >
           <svg
             class="w-4"
@@ -80,12 +80,12 @@
           >
         </button>
       </div>
-      <div class="flex shadow-sm rounded">
+      <div class="flex rounded shadow-sm">
         <button
-          class="border border-gray-300 rounded-md rounded-r-none px-3 py-1 flex items-center space-x-1 hover:bg-gray-100"
+          class="flex items-center space-x-1 rounded-md rounded-r-none border border-gray-300 px-3 py-1 hover:bg-gray-100"
         >
           <svg
-            class="w-4 text-amber-500 fill-current"
+            class="w-4 fill-current text-amber-500"
             aria-hidden="true"
             viewBox="0 0 16 16"
             data-view-component="true"
@@ -98,16 +98,16 @@
           <div>Starred</div>
           <a
             href="#"
-            class="rounded bg-gray-200 rounded-2xl px-3 py-1 font-semibold"
+            class="rounded rounded-2xl bg-gray-200 px-3 py-1 font-semibold"
             >56.8k</a
           >
         </button>
         <a
           href="#"
-          class="border border-gray-300 rounded-md rounded-l-none border-l-0 px-3 py-1 font-semibold flex hover:bg-gray-100"
+          class="flex rounded-md rounded-l-none border border-l-0 border-gray-300 px-3 py-1 font-semibold hover:bg-gray-100"
         >
           <svg
-            class="w-3 ml-0.5"
+            class="ml-0.5 w-3"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

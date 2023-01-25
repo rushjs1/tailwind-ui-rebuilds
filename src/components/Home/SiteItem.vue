@@ -1,13 +1,13 @@
 <template>
-  <div class="item-box flex flex-col items-center mb-8 mx-4">
+  <div class="item-box mx-4 mb-8 flex flex-col items-center">
     <RouterLink :to="`/${title}-ui`">
       <div
-        class="boxes bg-gray-400 h-22 w-22 rounded-full shadow-md flex items-center justify-center rounded-lg cursor-pointer transition duration-300"
+        class="boxes flex h-22 w-22 cursor-pointer items-center justify-center rounded-lg bg-gray-400 shadow-md transition duration-300 ease-in-out"
       >
         <component :is="icon[0]" />
       </div>
     </RouterLink>
-    <span class="mt-4 font-bold text-slate-200 cursor-pointer">
+    <span class="mt-4 cursor-pointer font-bold text-slate-200">
       {{ title }}
     </span>
   </div>

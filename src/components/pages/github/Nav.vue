@@ -1,24 +1,42 @@
+<script setup>
+import GithubIconSmall from "@/components/icons/github/GithubIconSmall.vue";
+</script>
+
 <template>
   <nav
-    class="bg-gray-900 text-white px-4 py-3 flex items-center justify-between"
+    class="flex items-center justify-between bg-gray-900 px-4 py-3 text-white"
   >
+    <div class="block md:hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="h-5 w-5"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </div>
     <div class="flex items-center space-x-4">
       <GithubIconSmall />
-      <div class="relative">
+      <div class="relative hidden shrink md:block">
         <input
           type="text"
-          class="rounded bg-gray-700 placeholder-white w-72 px-3 py-1"
+          class="w-32 truncate rounded bg-gray-700 px-3 py-1 placeholder-white transition-width duration-300 lg:w-72"
           placeholder="Search or jump to..."
         />
-        <div class="absolute top-0 right-0 flex items-center h-full">
+        <div class="absolute top-0 right-0 flex h-full items-center">
           <div
-            class="border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2"
+            class="mr-2 rounded border border-gray-600 px-2 text-xs text-gray-400"
           >
             /
           </div>
         </div>
       </div>
-      <ul class="flex items-center font-semibold space-x-4">
+      <ul class="hidden shrink-0 items-center space-x-4 font-semibold md:flex">
         <li>
           <a href="" class="hover:text-gray-400">Pull Requests</a>
         </li>
@@ -34,7 +52,7 @@
       </ul>
     </div>
     <div class="flex items-center space-x-4 text-white">
-      <a href="" class="relative hover:text-gray-400"
+      <a href="" class="relative hidden hover:text-gray-400 md:block"
         ><svg
           class="w-5"
           fill="none"
@@ -50,10 +68,10 @@
           ></path>
         </svg>
         <div
-          class="bg-blue-600 rounded-full w-2 h-2 absolute top-0 right-0"
+          class="absolute top-0 right-0 h-2 w-2 rounded-full bg-blue-600"
         ></div>
       </a>
-      <a href="" class="flex items-center hover:text-gray-400">
+      <a href="" class="hidden items-center hover:text-gray-400 md:flex">
         <svg
           class="w-5"
           fill="none"
@@ -86,10 +104,10 @@
       <a href="" class="flex items-center hover:text-gray-400">
         <img
           src="https://avatars.githubusercontent.com/u/60147451?s=400&u=ddd063df26e120962bd5cd5c7846e9edabb1a5ca&v=4"
-          class="w-5 h-5 rounded-full"
+          class="h-5 w-5 rounded-full"
         />
         <svg
-          class="w-3 ml-0.5"
+          class="ml-0.5 w-3"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -106,7 +124,3 @@
     </div>
   </nav>
 </template>
-
-<script setup>
-import GithubIconSmall from "@/components/icons/github/GithubIconSmall.vue";
-</script>

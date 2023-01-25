@@ -5,15 +5,13 @@ import GithubIcon from "@/components/icons/GithubIcon.vue";
 import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
 
 // Next ideas so I dont forget - Teams, Discord, BitBucket?
-
-console.log("test from neovim pt.2");
 </script>
 
 <template>
   <div class="home-page">
     <div>
       <nav
-        class="nav fixed flex w-full items-center justify-start space-x-1 p-6 font-semibold text-white"
+        class="nav fixed flex w-full items-center justify-start space-x-1 bg-slate-900/60 p-6 font-semibold text-white"
       >
         <RouterLink to="/">
           <TailwindLogo />
@@ -24,7 +22,7 @@ console.log("test from neovim pt.2");
         class="h-screen bg-slate-900 bg-glow2 bg-cover bg-center text-center"
       >
         <div
-          class="title flex flex-col items-center justify-center space-x-2 px-4 pt-28 text-4xl font-extrabold font-bold tracking-tight text-white"
+          class="title flex flex-col items-center justify-center space-x-2 px-4 pt-28 text-4xl font-extrabold tracking-tight text-white"
         >
           <span>
             Rebuilding popular user interfaces using

@@ -1,14 +1,18 @@
 <template>
   <div
-    class="container mx-auto my-10 py-10 px-4 flex items-center justify-around border-t border-gray-200 text-xs"
+    class="container mx-auto my-10 flex flex-col-reverse items-center justify-around border-t border-gray-200 py-10 px-4 text-xs transition-spacing duration-300 lg:flex-row"
   >
-    <div class="w-2/12 text-gray-500 flex items-center space-x-3">
+    <div
+      class="flex w-full items-center justify-center space-x-3 text-gray-500 lg:w-2/12"
+    >
       <span>
         <GithubIconSmall :footer="true" />
       </span>
       <span> &copy; 2022 Github, Inc. </span>
     </div>
-    <div class="w-10/12 flex justify-around text-blue-500 pr-20">
+    <div
+      class="mb-4 flex w-full justify-center gap-2 text-blue-500 lg:mb-0 lg:w-10/12 lg:justify-around lg:gap-0 lg:pr-20"
+    >
       <LinkItem :text="'Terms'" />
       <LinkItem :text="'Privacy'" />
       <LinkItem :text="'Security'" />

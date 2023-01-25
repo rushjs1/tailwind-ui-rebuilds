@@ -1,15 +1,15 @@
 <template>
   <div
-    class="bg-gray-100/50 rounded-md rounded-b-none border border-gray-200 border-b-none flex items-center justify-between px-4 py-4 mt-5"
+    class="border-b-none mt-5 flex items-center justify-between rounded-md rounded-b-none border border-gray-200 bg-gray-100/50 px-4 py-4"
   >
     <div class="flex items-center space-x-2">
       <img
-        class="w-5 h-5 rounded-full"
+        class="h-5 w-5 rounded-full"
         src="https://avatars.githubusercontent.com/u/4323180?v=4"
         alt=""
       />
       <a href="#" class="font-semibold hover:underline"> adamwathan </a>
-      <a href="#" class="hover:underline hover:text-blue-600"
+      <a href="#" class="hover:text-blue-600 hover:underline"
         >Update changelog</a
       >
     </div>
@@ -21,7 +21,7 @@
           viewBox="0 0 16 16"
           data-view-component="true"
           stroke="#"
-          class="fill-current text-green-500 h-5 w-5"
+          class="h-5 w-5 fill-current text-green-500"
         >
           <path
             fill-rule="evenodd"
@@ -29,23 +29,25 @@
           ></path>
         </svg>
       </a>
-      <a
-        href="#"
-        class="font-mono text-xs text-gray-400 hover:underline hover:text-blue-500 ml-2"
-      >
-        cea3ccf
-      </a>
-      <span
-        class="text-gray-400 hover:text-blue-500 hover:underline ml-2 text-xs"
-        >3 days ago</span
-      >
-      <a href="#" class="flex items-center ml-3 space-x-1 group">
+      <div class="hidden lg:flex">
+        <a
+          href="#"
+          class="ml-2 font-mono text-xs text-gray-400 hover:text-blue-500 hover:underline"
+        >
+          cea3ccf
+        </a>
+        <span
+          class="ml-2 text-xs text-gray-400 hover:text-blue-500 hover:underline"
+          >3 days ago</span
+        >
+      </div>
+      <a href="#" class="group ml-3 flex items-center space-x-1">
         <svg
           text="gray"
           aria-hidden="true"
           viewBox="0 0 16 16"
           data-view-component="true"
-          class="w-4 h-4 text-gray-600 fill-current group-hover:text-blue-500"
+          class="h-4 w-4 fill-current text-gray-600 group-hover:text-blue-500"
         >
           <path
             fill-rule="evenodd"
