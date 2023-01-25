@@ -23,7 +23,7 @@ const getFullName = (person) => {
 </script>
 
 <template>
-  <div class="col-span-2 bg-spotify-stone-dark px-6 text-gray-300">
+  <div class="bg-spotify-stone-dark px-1 text-gray-300 xl:px-3">
     <div class="label-section mt-6 flex items-center justify-between">
       <span class="text-md font-bold">Friend Activity</span>
       <div class="flex items-center space-x-2">

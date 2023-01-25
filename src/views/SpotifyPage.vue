@@ -1,17 +1,15 @@
+<script setup>
+import LeftPanel from "@/components/pages/spotify/panels/LeftPanel.vue";
+import RightPanel from "@/components/pages/spotify/panels/RightPanel.vue";
+import CenterPanel from "@/components/pages/spotify/panels/CenterPanel.vue";
+</script>
+
 <template>
-  <div class="flex justify-center">
-    <div class="grid h-screen w-full grid-cols-12">
-      <LeftPanel />
-      <div class="col-span-8 border border-gray-500">
-        <CenterPanel />
-      </div>
-      <RightPanel />
+  <div class="flex min-h-screen w-full sm:min-w-[800px]">
+    <LeftPanel class="hidden shrink-0 sm:block lg:col-span-2" />
+    <div class="grid grid-cols-12">
+      <CenterPanel class="col-span-12 xl:col-span-10" />
+      <RightPanel class="col-span-2 hidden xl:block" />
     </div>
   </div>
 </template>
-
-<script setup>
-import LeftPanel from "@/components/pages/spotify/LeftPanel.vue";
-import RightPanel from "@/components/pages/spotify/RightPanel.vue";
-import CenterPanel from "@/components/pages/spotify/CenterPanel.vue";
-</script>

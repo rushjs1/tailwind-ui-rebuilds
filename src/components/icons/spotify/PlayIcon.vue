@@ -2,15 +2,16 @@
 
 <template>
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    height="24"
+    width="24"
+    aria-hidden="true"
     viewBox="0 0 24 24"
-    fill="currentColor"
-    class="h-6 w-6"
+    data-encore-id="icon"
+    class="Svg-sc-ytk21e-0 uPxdw"
   >
     <path
-      fill-rule="evenodd"
-      d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
-      clip-rule="evenodd"
-    />
+      d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"
+    ></path>
   </svg>
 </template>
