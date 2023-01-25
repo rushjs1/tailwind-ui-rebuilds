@@ -14,14 +14,19 @@ module.exports = {
         "github-readme-btn-blue": "#2c80c0",
         "spotify-stone-light": "#1e1e1e",
         "spotify-stone-dark": "#121212",
+        "spotify-liked-card-hover": "hsla(0, 0%, 100%, .2)",
+        "spotify-liked-card": "hsla(0, 0%, 100%, .1)",
         "spotify-green": "#1bd760",
         "spotify-dim-blue": "rgb(72, 32, 176)",
+        "spotify-card": "#181818",
+        "spotify-card-hover": "#282828",
       },
       fontSize: {
         xxs: ".65rem",
       },
       boxShadow: {
         spotify: "0 8px 8px rgb(0 0 0 / 30%)",
+        "spotify-card": "0 8px 24px rgba(0,0,0,.5)",
       },
       backgroundImage: {
         glow: "url('https://cli.github.com/assets/images/light-glow.svg')",
@@ -30,14 +35,7 @@ module.exports = {
         glowLight:
           "url('https://tailwindcss.com/_next/static/media/hero@75.4dea7abe609fc522c039fba7662ceea2.jpg')",
       },
-      backgroundSize: {
-        "size-200": "200% 200%",
-      },
-      backgroundPosition: {
-        "pos-0": "0% 0%",
-        "pos-100": "100% 100%",
-      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

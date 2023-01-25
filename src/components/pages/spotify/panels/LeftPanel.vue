@@ -7,7 +7,7 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
 </script>
 
 <template>
-  <div class="col-span-2 bg-black px-6 text-gray-300">
+  <div class="bg-black px-6 text-gray-300">
     <div class="mac-buttons mt-3 flex items-center justify-start space-x-2">
       <div class="h-3 w-3 rounded-full bg-red-500 hover:cursor-pointer">
         &nbsp;
