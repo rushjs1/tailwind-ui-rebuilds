@@ -23,15 +23,15 @@ const getFullName = (person) => {
 </script>
 
 <template>
-  <div class="bg-spotify-stone-dark px-1 text-gray-300 xl:px-3">
+  <div class="max-h-screen bg-spotify-stone-dark px-1 text-gray-300 xl:px-3">
     <div class="label-section mt-6 flex items-center justify-between">
-      <span class="text-md font-bold">Friend Activity</span>
-      <div class="flex items-center space-x-2">
+      <span class="text-sm font-bold">Friend Activity</span>
+      <div class="flex items-end space-x-2">
         <span>
-          <AddFriendIcon class="h-5 w-5" />
+          <AddFriendIcon class="h-4 w-4" />
         </span>
         <span>
-          <XIcon />
+          <XIcon class="h-4 w-4" />
         </span>
       </div>
     </div>
@@ -44,15 +44,15 @@ const getFullName = (person) => {
       <div class="col-span-3" @click="getUser">
         <img
           :src="person.picture.thumbnail"
-          class="rounded-full border-2 border-transparent hover:border-emerald-500"
+          class="h-10 w-10 rounded-full border-2 border-transparent hover:border-emerald-500"
           alt="Avatar"
         />
       </div>
       <div
         class="col-span-7 flex flex-col space-y-1 hover:cursor-pointer hover:text-white"
       >
-        <span class="font-semibold"> {{ getFullName(person) }} </span>
-        <span class="flex items-center space-x-2 text-xs">
+        <span class="text-xs font-semibold"> {{ getFullName(person) }} </span>
+        <div class="flex items-center space-x-2 text-[.65rem]">
           <span class="flex items-center space-x-1">
             <span> Califor... </span>
             <span>
@@ -60,12 +60,12 @@ const getFullName = (person) => {
             </span>
             <span>The...</span>
           </span>
-        </span>
-        <div class="flex items-center space-x-2">
+        </div>
+        <div class="flex items-center space-x-2 text-[.65rem]">
           <span>
             <TwoCirclesIcon />
           </span>
-          <span class="text-xs"> California Su... </span>
+          <span> California Su... </span>
         </div>
       </div>
       <div class="col-span-2 text-xs">2 hr</div>
