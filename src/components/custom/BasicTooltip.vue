@@ -1,14 +1,13 @@
 <script setup>
-import { ref } from "vue";
-
 const props = defineProps({
   position: {
-    required: true,
+    required: false,
     type: String,
     default: () => "top",
   },
 });
 </script>
+
 <template>
   <div class="group relative flex flex-col items-center justify-center">
     <div

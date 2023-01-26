@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <svg
     role="img"
@@ -8,6 +6,7 @@
     aria-hidden="true"
     viewBox="0 0 24 24"
     data-encore-id="icon"
+    fill="currentColor"
     class="Svg-sc-ytk21e-0 uPxdw"
   >
     <path

@@ -1,7 +1,8 @@
 <script setup>
 import AddFriendIcon from "@/components/icons/spotify/AddFriendIcon.vue";
-import TwoCirclesIcon from "@/components/icons/spotify/TwoCirclesIcon.vue";
+import MusicNoteIcon from "@/components/icons/spotify/MusicNoteIcon.vue";
 import BulletIcon from "@/components/icons/spotify/BulletIcon.vue";
+import PlayIcon from "@/components/icons/spotify/PlayIcon.vue";
 import XIcon from "@/components/icons/spotify/XIcon.vue";
 import { reactive } from "vue";
 
@@ -20,6 +21,13 @@ fetch("https://randomuser.me/api/?results=8")
 const getFullName = (person) => {
   return `${person.name.first} ${person.name.last}`;
 };
+
+function getRandomNumber() {
+  let max = 24;
+  return Math.floor(Math.random() * max);
+}
+
+getRandomNumber();
 </script>
 
 <template>
@@ -41,34 +49,50 @@ const getFullName = (person) => {
       :key="index"
       class="friends-section mt-8 grid w-full grid-cols-12 last:mb-4"
     >
-      <div class="col-span-3" @click="getUser">
-        <img
-          :src="person.picture.thumbnail"
-          class="h-10 w-10 rounded-full border-2 border-transparent hover:border-emerald-500"
-          alt="Avatar"
-        />
+      <div class="col-span-3">
+        <div class="group relative">
+          <div
+            class="absolute inset-0 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-b from-black/50 via-black/30 to-black/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          >
+            <PlayIcon class="h-3.5 w-3.5 text-white" />
+          </div>
+
+          <img
+            :src="person.picture.thumbnail"
+            class="h-10 w-10 rounded-full border-2 border-transparent"
+            alt="Avatar"
+          />
+        </div>
       </div>
       <div
         class="col-span-7 flex flex-col space-y-1 hover:cursor-pointer hover:text-white"
       >
-        <span class="text-xs font-semibold"> {{ getFullName(person) }} </span>
+        <span class="text-xs font-semibold hover:text-gray-100 hover:underline">
+          {{ getFullName(person) }}
+        </span>
         <div class="flex items-center space-x-2 text-[.65rem]">
           <span class="flex items-center space-x-1">
-            <span> Califor... </span>
+            <span class="w-14 truncate hover:text-gray-100 hover:underline">
+              California Sun - EP</span
+            >
             <span>
               <BulletIcon />
             </span>
-            <span>The...</span>
+            <span class="w-8 truncate hover:text-gray-100 hover:underline"
+              >The Giving Moon</span
+            >
           </span>
         </div>
         <div class="flex items-center space-x-2 text-[.65rem]">
           <span>
-            <TwoCirclesIcon />
+            <MusicNoteIcon class="h-3.5 w-3.5" />
           </span>
-          <span> California Su... </span>
+          <span class="hover:text-gray-100 hover:underline">
+            California Sun
+          </span>
         </div>
       </div>
-      <div class="col-span-2 text-xs">2 hr</div>
+      <div class="col-span-2 text-xs">{{ getRandomNumber() }} hr</div>
     </div>
   </div>
 </template>
