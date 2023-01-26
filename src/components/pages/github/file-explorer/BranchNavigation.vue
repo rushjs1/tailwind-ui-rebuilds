@@ -2,7 +2,7 @@
   <div class="branch-nav mb-3 flex items-center justify-between">
     <div class="flex items-center space-x-3">
       <button
-        class="flex items-center space-x-2 rounded-md border border-gray-300 px-4 py-1 hover:bg-gray-200"
+        class="flex items-center space-x-2 rounded-md border border-gray-300 bg-gray-50 px-4 py-1 transition duration-200 hover:bg-gray-200"
       >
         <svg
           class="h-4"
@@ -74,7 +74,7 @@
         </a>
       </div>
     </div>
-    <div class="flex items-center space-x-2">
+    <div class="hidden items-center space-x-2 sm:flex">
       <button
         class="rounded-lg border border-gray-300 px-2 py-1 font-semibold hover:bg-gray-200"
       >
@@ -134,6 +134,11 @@
         </svg>
       </button>
     </div>
+    <button
+      class="block rounded-md border border-gray-300 bg-gray-50 px-4 py-1 transition duration-200 hover:bg-gray-200 sm:hidden"
+    >
+      <span class="font-semibold"> Go to file </span>
+    </button>
   </div>
 </template>
 

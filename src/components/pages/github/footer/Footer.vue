@@ -11,7 +11,7 @@
       <span> &copy; 2022 Github, Inc. </span>
     </div>
     <div
-      class="mb-4 flex w-full justify-center gap-2 text-blue-500 lg:mb-0 lg:w-10/12 lg:justify-around lg:gap-0 lg:pr-20"
+      class="mb-4 flex w-full flex-wrap justify-center gap-2 text-blue-500 lg:mb-0 lg:w-10/12 lg:justify-around lg:gap-0 lg:pr-20"
     >
       <LinkItem :text="'Terms'" />
       <LinkItem :text="'Privacy'" />
