@@ -17,12 +17,13 @@ const props = defineProps({
   <button
     class="group flex w-full shrink-0 flex-col items-start rounded-md bg-spotify-card p-4 transition duration-300 hover:bg-spotify-card-hover"
   >
-    <div
-      class="relative flex w-full items-start justify-start shadow-spotify-card"
-    >
+    <div class="relative flex w-full items-start justify-start">
       <img
         :src="props.artist.image"
-        :class="[props.roundedImg ? 'rounded-full' : '', 'shrink-0']"
+        :class="[
+          props.roundedImg ? 'rounded-full' : '',
+          'shrink-0 shadow-spotify-card',
+        ]"
       />
       <PlayButton
         class="absolute right-[8px] bottom-0 z-20 mr-0 opacity-0 duration-[270ms] group-hover:-translate-y-2 group-hover:opacity-100"

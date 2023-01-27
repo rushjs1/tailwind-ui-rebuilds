@@ -141,9 +141,9 @@ const hovering = (index) => {
         />
       </div>
     </div>
-    <div class="mt-6 px-6 py-4">
+    <!-- <div class="mt-6 px-6 py-4">
       <SectionHeading title="Popular Dance & Electronic playlists" />
       <div>herre</div>
-    </div>
+    </div> -->
   </main>
 </template>
