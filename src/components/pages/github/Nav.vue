@@ -103,7 +103,7 @@ import GithubIconSmall from "@/components/icons/github/GithubIconSmall.vue";
       </a>
       <a href="" class="flex items-center hover:text-gray-400">
         <img
-          src="https://avatars.githubusercontent.com/u/60147451?s=400&u=ddd063df26e120962bd5cd5c7846e9edabb1a5ca&v=4"
+          src="https://secure.gravatar.com/avatar/3683a0f4629cd4e57fc226338b081615?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJR-6.png"
           class="h-5 w-5 rounded-full"
         />
         <svg

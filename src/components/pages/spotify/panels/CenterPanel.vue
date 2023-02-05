@@ -7,6 +7,8 @@ import SectionHeading from "@/components/pages/spotify/SectionHeading.vue";
 import PlayButton from "@/components/pages/spotify/PlayButton.vue";
 import BasicTooltip from "@/components/custom/BasicTooltip.vue";
 import SpotifyCard from "@/components/pages/spotify/SpotifyCard.vue";
+import TheFooter from "@/components/pages/spotify/TheFooter.vue";
+
 import {
   favoriteArtists,
   jumpBackIn,
@@ -145,5 +147,9 @@ const hovering = (index) => {
       <SectionHeading title="Popular Dance & Electronic playlists" />
       <div>herre</div>
     </div> -->
+
+    <div class="mt-6 px-6 py-4">
+      <TheFooter />
+    </div>
   </main>
 </template>

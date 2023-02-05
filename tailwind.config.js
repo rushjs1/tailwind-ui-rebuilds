@@ -21,6 +21,8 @@ module.exports = {
         "spotify-dim-blue": "rgb(72, 32, 176)",
         "spotify-card": "#181818",
         "spotify-card-hover": "#282828",
+        "spotify-icon": "rgb(41, 41, 41)",
+        "spotify-icon-hover": "rgb(114, 114, 114)",
       },
       fontSize: {
         xxs: ".65rem",
