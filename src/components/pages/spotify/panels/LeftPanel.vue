@@ -24,39 +24,39 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
         class="flex items-center space-x-3 py-2 text-white hover:cursor-pointer"
       >
         <HomeIcon />
-        <span>Home</span>
+        <span class="text-sm">Home</span>
       </div>
       <div
         class="flex items-center space-x-3 py-2 hover:cursor-pointer hover:text-white"
       >
         <SearchIcon />
-        <span>Search</span>
+        <span class="text-sm">Search</span>
       </div>
       <div
         class="flex items-center space-x-3 py-2 hover:cursor-pointer hover:text-white"
       >
         <CollectionIcon />
-        <span> Your Library</span>
+        <span class="text-sm"> Your Library</span>
       </div>
     </div>
     <div class="left-panel-actions mt-4 font-semibold">
       <div
         class="flex items-center space-x-3 py-2 hover:cursor-pointer hover:text-white"
       >
-        <div class="bg-gray-300 p-1">
+        <div class="h-6 w-6 bg-gray-300 p-1">
           <PlusIcon />
         </div>
-        <span> Create Playlist</span>
+        <span class="text-sm"> Create Playlist</span>
       </div>
       <div
         class="flex items-center space-x-3 py-2 hover:cursor-pointer hover:text-white"
       >
         <div
-          class="bg-gradient-to-br from-indigo-700 via-indigo-400 to-gray-300 p-1"
+          class="flex h-6 w-6 items-center justify-center bg-gradient-to-br from-indigo-700 via-indigo-400 to-gray-300 p-1"
         >
-          <HeartIcon />
+          <HeartIcon class="h-3 w-3" />
         </div>
-        <span>Liked Songs</span>
+        <span class="text-sm">Liked Songs</span>
       </div>
     </div>
     <div class="left-panel-playlists mt-3 text-gray-400">
@@ -70,7 +70,7 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
         <div class="hover:cursor-pointer hover:text-white">
           Your top songs 2022
         </div>
-        <div class="hover:cursor-pointer hover:text-white">Techno</div>
+        <div class="hover:cursor-pointer hover:text-white">Office Techno</div>
         <div class="hover:cursor-pointer hover:text-white">Work Mode</div>
         <div class="hover:cursor-pointer hover:text-white">
           Jessica + Nelson + Mark + Rushjs
@@ -81,6 +81,12 @@ import HeartIcon from "@/components/icons/spotify/HeartIcon.vue";
         <div class="hover:cursor-pointer hover:text-white">Chime | Live</div>
         <div class="hover:cursor-pointer hover:text-white">
           Your top songs 2021
+        </div>
+        <div class="hover:cursor-pointer hover:text-white">
+          This is Linkin Park
+        </div>
+        <div class="hover:cursor-pointer hover:text-white">
+          This is Chester Bennington
         </div>
       </div>
     </div>

@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <svg
-      class="w-4 h-4 fill-current text-gray-200"
-      fill="#ffffff"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-      ></path>
-    </svg>
-  </div>
+  <svg
+    class="h-4 w-4 fill-current text-gray-200"
+    fill="#ffffff"
+    stroke="currentColor"
+    viewBox="0 0 16 16"
+    data-encore-id="icon"
+  >
+    <path
+      d="M15.724 4.22A4.313 4.313 0 0 0 12.192.814a4.269 4.269 0 0 0-3.622 1.13.837.837 0 0 1-1.14 0 4.272 4.272 0 0 0-6.21 5.855l5.916 7.05a1.128 1.128 0 0 0 1.727 0l5.916-7.05a4.228 4.228 0 0 0 .945-3.577z"
+    ></path>
+  </svg>
 </template>

@@ -4,6 +4,7 @@ import FooterIconItem from "@/components/pages/spotify/FooterIconItem.vue";
 import InstagramIcon from "../../icons/spotify/InstagramIcon.vue";
 import TwitterIcon from "../../icons/spotify/TwitterIcon.vue";
 import FacebookIcon from "../../icons/spotify/FacebookIcon.vue";
+import IHaveNoIdeaWhatToEvenCallThisThing from "@/components/icons/spotify/IHaveNoIdeaWhatToEvenCallThisThing.vue";
 
 const company = ["About", "Jobs", "For the Record"];
 const communities = [
@@ -55,7 +56,7 @@ const bottomRow = [
         </footer-icon-item>
       </div>
     </div>
-    <div class="mt-8 text-white">
+    <div class="mb-16 mt-8 text-white">
       <div
         class="my-8 flex flex-col items-center justify-center md:flex-row md:justify-between"
       >
@@ -65,7 +66,14 @@ const bottomRow = [
             :key="index"
             class="text-xs transition duration-200 hover:cursor-pointer hover:text-gray-100 hover:underline"
           >
-            {{ item }}
+            <div class="flex items-center space-x-1">
+              <span>
+                {{ item }}
+              </span>
+              <span v-if="index === 5">
+                <IHaveNoIdeaWhatToEvenCallThisThing />
+              </span>
+            </div>
           </button>
         </div>
         <div class="child:text-sm child:text-gray-400">

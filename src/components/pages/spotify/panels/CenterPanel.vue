@@ -91,7 +91,10 @@ const hovering = (index) => {
               @mouseleave="hoverIndex = null"
             >
               <div class="flex items-center">
-                <img :src="artist.image" class="h-20 w-20 shrink-0 rounded-l" />
+                <img
+                  :src="artist.image"
+                  class="h-20 w-20 shrink-0 rounded-l shadow-lg"
+                />
                 <span class="ml-4 text-left text-sm font-semibold">
                   {{ artist.name }}
                 </span>
