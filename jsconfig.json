@@ -1,0 +1,9 @@
+//required for 'go to definition' following vite alias
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

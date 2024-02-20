@@ -12,6 +12,6 @@ import SongPlaybackBar from "@/components/pages/spotify/SongPlaybackBar.vue";
       <CenterPanel class="col-span-12 xl:col-span-10" />
       <RightPanel class="col-span-2 hidden xl:block" />
     </div>
-    <SongPlaybackBar class="fixed bottom-0" />
+    <SongPlaybackBar class="fixed bottom-0 z-30 hidden md:flex" />
   </div>
 </template>
