@@ -11,7 +11,7 @@ import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
   <div class="home-page">
     <div>
       <nav
-        class="nav fixed flex w-full items-center justify-start space-x-1 bg-slate-900/60 p-6 font-semibold text-white"
+        class="nav fixed z-30 flex w-full items-center justify-start space-x-1 p-6 font-semibold text-white backdrop-blur-sm"
       >
         <RouterLink to="/">
           <TailwindLogo />
@@ -19,7 +19,7 @@ import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
         <span class="font-mono text-lg font-bold">Tailwind Rebuilds</span>
       </nav>
       <div
-        class="h-screen bg-slate-900 bg-glow2 bg-cover bg-center text-center"
+        class="relative min-h-screen overflow-y-clip bg-slate-900 bg-glow2 bg-cover bg-center text-center"
       >
         <div
           class="title flex flex-col items-center justify-center space-x-2 px-4 pt-28 text-4xl font-extrabold tracking-tight text-white"
@@ -28,6 +28,7 @@ import SpotifyIcon from "@/components/icons/SpotifyIcon.vue";
             Rebuilding popular user interfaces using
             <a
               href="https://tailwindcss.com/"
+              target="_blank"
               class="text-sky-400 hover:underline"
               >tailwindcss</a
             >
